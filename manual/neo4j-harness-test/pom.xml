@@ -24,7 +24,7 @@
     <license-text.header>ApacheLicense-2.0-header.txt</license-text.header>
     <docs-plugin.skip>true</docs-plugin.skip>
     <licensing.prepend.text>notice-gpl-prefix.txt</licensing.prepend.text>
-    <neo4j.version>${project.version}</neo4j.version>
+    <neo4j.version>3.2.4</neo4j.version>
     <attach-java-test-sources-phase>package</attach-java-test-sources-phase>
   </properties>
 
