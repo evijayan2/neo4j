@@ -17,7 +17,7 @@
 
   <properties>
     <version-package>consistency.checking.impl</version-package>
-    <neo4j.version>${project.version}</neo4j.version>
+    <neo4j.version>4.4.45</neo4j.version>
     <bundle.namespace>org.neo4j.consistency</bundle.namespace>
     <short-name>consistency-check</short-name>
     <docs-plugin.skip>false</docs-plugin.skip>
@@ -126,10 +126,9 @@ the relevant Commercial Agreement.
             <phase>${generate-config-docs-phase}</phase>
             <configuration>
               <target>
-                <java classname="org.neo4j.tooling.GenerateConfigDocumentation"
-                      classpathref="maven.compile.classpath" failonerror="true">
-                  <arg value="org.neo4j.consistency.ConsistencyCheckSettings" />
-                  <arg value="${project.build.directory}/docs/ops/configuration-attributes.asciidoc" />
+                <java classname="org.neo4j.tooling.GenerateConfigDocumentation" classpathref="maven.compile.classpath" failonerror="true">
+                  <arg value="org.neo4j.consistency.ConsistencyCheckSettings"/>
+                  <arg value="${project.build.directory}/docs/ops/configuration-attributes.asciidoc"/>
                 </java>
               </target>
             </configuration>
