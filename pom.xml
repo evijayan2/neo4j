@@ -220,7 +220,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore />
+                    <ignore/>
                   </action>
                 </pluginExecution>
               </pluginExecutions>
@@ -708,7 +708,7 @@
       <dependency>
         <groupId>org.mozilla</groupId>
         <artifactId>rhino</artifactId>
-        <version>1.7R4</version>
+        <version>1.7.14.1</version>
       </dependency>
       <dependency>
         <groupId>org.bouncycastle</groupId>
